@@ -1,0 +1,89 @@
+.header-bg .header {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background: #001E32;
+}
+
+.header-informacoes {
+  padding: 1rem 80px;
+}
+
+.header-informacoes-buttons button {
+  border: none;
+  border-radius: .4rem;
+  background: #002C52;
+  padding: .5rem 1rem;
+}
+
+.header-informacoes-buttons button img {
+  width: 20px;
+}
+
+.header-secundario {
+  font-size: .9rem;
+}
+
+.header-menu-search {
+  background: #fff;
+  padding: .5rem 80px;
+}
+
+.header-menu-search > div {
+  column-gap: 1.5rem;
+}
+
+#data {
+  font-size: .9rem;
+  font-weight: 600;
+  color: #001E32;
+}
+
+.header-menu-search .header-redes-sociais ul {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.header-menu-search .header-redes-sociais ul a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: solid 1px #001E32;
+  border-radius: 50%;
+}
+
+.header-menu-search .header-redes-sociais ul a img {
+  width: 14px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.header-search {
+  width: 300px;
+  height: 40px;
+  border: solid 1px #ddd;
+  border-radius: .4rem;
+  background: #fff;
+  padding: 0 .5rem;
+}
+
+.header-search img {
+  width: 24px;
+}
+
+.header-menu-search .header-search input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+}
+
+.header-navegacao ul a {
+  padding: 1rem;
+}

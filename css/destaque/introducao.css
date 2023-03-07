@@ -1,0 +1,14 @@
+.introducao-destaque {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.destaque-imagem {
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.destaque-imagem img {
+  object-fit: cover;
+}
