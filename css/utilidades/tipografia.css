@@ -1,0 +1,27 @@
+.font-xxl {
+  font: 700 3rem/1.5 'Roboto', sans-serif;
+}
+
+.font-xl {
+  font: 700 3rem/1.5 'Roboto', sans-serif;
+}
+
+.font-x {
+  font: 400 1.1rem/1.5 'Roboto', sans-serif;
+}
+
+.font-mm {
+  font: 600 1.2rem/1.3 'Roboto', sans-serif;
+}
+
+.font-m {
+  font: 400 1.2rem/1.5 'Roboto', sans-serif;
+}
+
+.font-s {
+  font: 400 .9rem/1.5 'Roboto', sans-serif;
+}
+
+.font-xs {
+  font: 600 .9rem/1.5 'Roboto', sans-serif;
+}

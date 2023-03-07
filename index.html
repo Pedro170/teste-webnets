@@ -10,51 +10,64 @@
 </head>
 
 <body>
-  <header class="header-bg">
-    <div class="header">
+  <header class="header-bg cor-01">
+    <div class="header-top">
       <div class="header-informacoes flex-1">
         <div class="header-informacoes-buttons flex-1">
           <button><img src="./img/icones/ajuste.svg" alt=""></button>
           <button>A+</button>
-          <button>A-</button>
+          <button>a-</button>
           <button>Acessibilidade</button>
         </div>
 
-        <ul class="header-secundario flex-1">
+        <ul class="header-secundario flex-1 font-s">
           <li><a href="#">Ir para o conteúdo</a></li>
           <li><a href="#">Ir para o menu</a></li>
           <li><a href="#">Ir para o busca</a></li>
-          <li><a href="#">Ir para o o rodapé</a></li>
+          <li><a href="#footer">Ir para o o rodapé</a></li>
         </ul>
       </div>
+    </div>
 
+    <div class="header-center">
       <div class="header-menu-search flex-1">
-        <div class="logo"><img src="./img/tatui.webp" alt="Tatuí"></div>
+        <div class="logo">
+          <img src="./img/logo.svg" alt="Tatuí">
+        </div>
         <div class="flex-3">
           <div class="header-redes-sociais">
             <ul>
-              <a href="/"><img src="./img/icones/intagram.svg" alt=""></a>
-              <a href="/"><img src="./img/icones/facebook.svg" alt=""></a>
-              <a href="/"><img src="./img/icones/twiter.svg" alt=""></a>
+              <a href="https://www.instagram.com/prefeituradetatui/" target="_blank">
+                <img src="./img/icones/intagram.svg" alt="">
+              </a>
+              <a href="https://www.facebook.com/PrefeituradeTatui/?locale=pt_BR" target="_blank">
+                <img src="./img/icones/facebook.svg" alt="">
+              </a>
+
+              <a href="https://twitter.com/PrefTatui" target="_blank">
+                <img src="./img/icones/twiter.svg" alt="">
+              </a>
             </ul>
           </div>
-          <span id="data">06 de março de 2023</span>
+          <span class="cor-03 font-xs">06 de março de 2023</span>
           <div class="header-search flex-1">
             <input type="text" name="" id="">
-            <img src="./img/icones/search.svg" alt="">
+            <img src="./img/icones/search.svg" alt="lupa">
           </div>
         </div>
       </div>
+    </div>
 
-      <nav class="header-navegacao">
-        <ul class="flex-3">
-          <li><a href="./">A Cidade</a></li>
-          <li><a href="./">Secretaria</a></li>
-          <li><a href="./">Turismo</a></li>
-          <li><a href="./">Notícias</a></li>
-          <li><a href="./">Serviços</a></li>
-          <li><a href="./">Licitação</a></li>
-          <li><a href="./">Editais</a></li>
+    <div class="header-bottom">
+      <nav class="header-navegacao font-x">
+        <ul class="flex-1">
+          <li><a href="https://www2.tatui.sp.gov.br/sobre/">A Cidade</a></li>
+          <li><a href="https://www2.tatui.sp.gov.br/equipe-de-governo/">Secretarias</a></li>
+          <li><a href="https://visitetatui.com.br/ws/">Turismo</a></li>
+          <li><a href="#noticias">Notícias</a></li>
+          <li><a href="https://www2.tatui.sp.gov.br/servicos/">Serviços</a></li>
+          <li><a href="https://www2.tatui.sp.gov.br/servicos/compras-e-licitacoes/">Licitação</a></li>
+          <li><a href="#editais">Editais</a></li>
           <li><a href="./">Diário Oficial</a></li>
           <li><a href="./">Concursos</a></li>
         </ul>
@@ -63,14 +76,15 @@
   </header>
 
   <main class="container">
-    <h1 class="titulo-pricipal">Destaques</h1>
+    <h1 class="titulo-pricipal cor-03">Destaques</h1>
     <div class="introducao-destaque">
       <div class="destaque-imagem">
-        <img src="./img/primavera.jpg" alt="">
+        <img src="./img/destaque-img01.jpg" alt="Sítio do Carroção">
       </div>
-      <div class="destaque-imagem"><img src="./img/primavera.jpg" alt=""></div>
 
-      <ul class="destaque-navegacao flex-1">
+      <div class="destaque-imagem"><img src="./img/destaque-img02.jpg" alt="Calçada com flores rosa"></div>
+
+      <ul class="destaque-navegacao cor-01 flex-1">
         <a href="/">Transparência</a>
         <a href="/">Serviços para Empresa</a>
         <a href="/">Serviços para Cidadão</a>
@@ -80,79 +94,238 @@
     </div>
   </main>
 
-  <article class="noticia-bg container">
+  <article class="noticia-bg container" id="noticias">
     <div class="noticia">
-      <h2 class="titulo-pricipal">Notícias</h2>
+      <h2 class="titulo-pricipal cor-03">Notícias</h2>
 
       <div class="noticias-galeria">
         <div class="noticias-galeria-item">
-          <div class="noticias-imagem">
-            <img
-              src="https://3.bp.blogspot.com/-zysSvVBsM4A/WGHHKpGXO_I/AAAAAAAAuNs/e4FT-g7iHPgI_aEeDwo9hpRNv2bmbIx6ACLcB/s640/tti%2Bcoreto%2Btatu%25C3%25AD.jpg"
-              alt="">
+          <div class="box-imagem">
+            <img src="img/praca.jpg" alt="">
           </div>
           <div>
-            <a href="/">Dia 20 de março</a href="/">
-            <p>Cidade recebe o Projeto Viva a Praça! Revitalização e novas estruturas a partir do ano que vem</p>
+            <a href="/" class="font-x cor-08">Dia 20 de março</a href="/">
+            <p class="font-mm cor-07">Cidade recebe o Projeto Viva a Praça! Revitalização e novas estruturas a partir do
+              ano que vem</p>
           </div>
         </div>
 
         <div class="noticias-galeria-item">
           <div class="noticias-mini-galeria">
-            <div class="noticias-imagem">
-              <img src="https://oprogressodetatui.com.br/wp-content/uploads/2021/07/prefeitura-nova-696x441.jpg" alt="">
+            <div class="box-imagem">
+              <img src="img/amitesp.jpg" alt="">
             </div>
 
             <div>
-              <a href="/">Dia 20 de março</a href="/">
-              <p>Foi aberto a inscrição para as feiras de Natal. São Vários espaços disponíveis</p>
+              <a href="/" class="font-x cor-08">Dia 20 de março</a href="/">
+              <p class="font-mm cor-07">Foi aberto a inscrição para as feiras de Natal. São Vários espaços disponíveis
+              </p>
             </div>
           </div>
 
           <div class="noticias-mini-galeria">
-            <div class="noticias-imagem">
+            <div class="box-imagem">
               <img src="https://www.grupomoreno.com.br/img/cidade_tatui01.jpg" alt="">
             </div>
 
             <div>
-              <a href="/">Dia 20 de março</a href="/">
-              <p>Foi aberto a inscrição para as feiras de Natal. São Vários espaços disponíveis</p>
+              <a href="/" class=".font-x cor-08">Dia 20 de março</a href="/">
+              <p class="font-mm cor-07">Foi aberto a inscrição para as feiras de Natal. São Vários espaços disponíveis
+              </p>
             </div>
           </div>
         </div>
 
-        <a class="veja-todos" href="/">Veja todos</a>
+        <a class="chip-veja-mais cor-01" href="https://www2.tatui.sp.gov.br/noticias/">Veja todos</a>
       </div>
     </div>
   </article>
 
   <article class="galeria-bg">
     <div class="galeria container">
-      <h2 class="titulo-pricipal">Galeria</h2>
-
+      <h2 class="titulo-pricipal cor-01">Galeria</h2>
       <div class="galeria-introducao">
         <div class="galeria-grid">
-          <img src="https://oprogressodetatui.com.br/wp-content/uploads/2021/07/prefeitura-nova-696x441.jpg" alt="">
-          <img src="https://oprogressodetatui.com.br/wp-content/uploads/2021/07/prefeitura-nova-696x441.jpg" alt="">
-          <img src="https://oprogressodetatui.com.br/wp-content/uploads/2021/07/prefeitura-nova-696x441.jpg" alt="">
-          <img src="https://oprogressodetatui.com.br/wp-content/uploads/2021/07/prefeitura-nova-696x441.jpg" alt="">
-          <img src="https://oprogressodetatui.com.br/wp-content/uploads/2021/07/prefeitura-nova-696x441.jpg" alt="">
-          <img src="https://oprogressodetatui.com.br/wp-content/uploads/2021/07/prefeitura-nova-696x441.jpg" alt="">
+          <div><img src="./img/fonte.jpg" alt=""></div>
+          <div><img src="./img/galeria-prefeitura.jpg" alt="cidade de Tatuí vista de cima"></div>
+          <div><img src="./img/galeria-fabrica.jpg" alt="fabrica"></div>
+          <div><img src="./img/galeria-fazenda.jpg" alt="Fazenda Maria – Ervas Frescas"></div>
+          <div><img src="./img/galeria-casarao.jpg" alt="Casarão dos Guedes"></div>
+          <img src="./img/galeria-estacao.jpg" alt="Estação Ferroviária">
         </div>
 
         <div class="video">
-          <iframe width="600" height="300" src="https://www.youtube.com/embed/uWSor2TuyjU?start=10"
+          <iframe src="https://www.youtube.com/embed/uWSor2TuyjU?start=10"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-
-            <p>Cidade recebe o Projeto Viva a Praça!</p>
+          <p class="font-mm cor-01">Cidade recebe o Projeto Viva a Praça!</p>
         </div>
       </div>
-      <a class="veja-todos" href="/">Veja todos</a>
+      <a class="chip-veja-mais border cor-01" href="/">Veja todos</a>
     </div>
-
   </article>
+
+  <article class="turismo-bg">
+    <div class="turismo container">
+      <h2 class="titulo-pricipal cor-01">Turismo</h2>
+      <div class="informacoes-turismo">
+        <div class="item-info">
+          <img src="./img/turismo-sitio.jpg" alt="Sítio Santa Rosa">
+          <span class="font-mm cor-01">Pontos Turísticos</span>
+        </div>
+        <div class="item-info">
+          <img src="./img/turismo-mercado.jpg" alt="Mercado Municipal “Nilzo Vanni”">
+          <span class="font-mm cor-01">Resturantes</span>
+        </div>
+        <div class="item-info">
+          <img src="./img/turismo-cama.jpg" alt="">
+          <span class="font-mm cor-01">Hospedagens</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="eventos-editais-bg">
+    <div class="eventos-editais container">
+      <div class="eventos">
+        <h2 class="titulo-pricipal cor-03">Eventos</h2>
+        <ul>
+          <li>
+            <span>15 Junho</span>
+            <div>
+              <h3 class="font-mm cor-07">Leitura ao ar livre</h3>
+              <p class="font-s cor-07">
+                Praça São João do Reinado das 15h às 19h
+              </p>
+            </div>
+          </li>
+          <li>
+            <span>15 Junho</span>
+            <div>
+              <h3 class="font-mm cor-07">Feira das Malhas e Cervejas</h3>
+              <p class="font-s cor-07">
+                Super centro de convenções das 15h às 19h
+              </p>
+            </div>
+          </li>
+          <li>
+            <span>15 Junho</span>
+            <div>
+              <h3 class="font-mm cor-07">Festa da Maçã e Morango</h3>
+              <p class="font-s cor-07">
+                Monumento do Peregrino das 15h as 19h
+              </p>
+            </div>
+          </li>
+        </ul>
+        <a class="chip-veja-mais cor-01" href="/">Veja todos</a>
+      </div>
+
+      <div class="editais" id="editais">
+        <h2 class="titulo-pricipal cor-03">Editais</h2>
+        <ul>
+          <li>
+            <a href=""><img src="img/icones/file.svg" alt=""></a>
+            <div>
+              <p class="font-s cor-07">
+                Tomadad de preços n° 001/2019 - Edital n° 006/2019
+              </p>
+            </div>
+          </li>
+          <li>
+            <a href=""><img src="img/icones/file.svg" alt=""></a>
+            <div>
+              <p class="font-s cor-07">
+                Tomadad de preços n° 001/2019 - Edital n° 006/2019
+              </p>
+            </div>
+          </li>
+          <li>
+            <a href=""><img src="img/icones/file.svg" alt=""></a>
+            <div>
+              <p class="font-s cor-07">
+                Tomadad de preços n° 001/2019 - Edital n° 006/2019
+              </p>
+            </div>
+          </li>
+          <li>
+            <a href=""><img src="img/icones/file.svg" alt=""></a>
+            <div>
+              <p class="font-s cor-07">
+                Tomadad de preços n° 001/2019 - Edital n° 006/2019
+              </p>
+            </div>
+          </li>
+        </ul>
+        <a class="chip-veja-mais cor-01" href="https://www2.tatui.sp.gov.br/?s=editais">Veja todos</a>
+      </div>
+
+      <div class="infor-secundario">
+        <div class="item">
+          <img src="./img/trash.png" alt="">
+          <p>Coleta de Lixo</p>
+        </div>
+        <div class="item">
+          <img src="./img/icones/sic.svg" alt="">
+          <p>Sic</p>
+        </div>
+        <div class="item">
+          <img src="./img/mala.png" alt="">
+          <p>Pat</p>
+        </div>
+        <div class="item">
+          <img src="./img/eouve-logo.png" alt="">
+          <p>Ouvidoria Online</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <footer id="footer" class="footer-bg">
+    <div class="footer container">
+      <div class="box-logo">
+        <div class="logo flex-3">
+          <img src="./img/logo-footer.webp" alt="Tatuí">
+        </div>
+        <div>
+          <h2 class="font-mm cor-01">Prefeitura de Tatuí</h2>
+          <p class="font-s cor-01">
+            Avenida Cônego João Clímaco,
+            140, Centro, Tatuí-SP
+            Cep 18.270-900
+            +55(15) 3259.5400
+            ouvidoria@tatui.sp.gov.br
+          </p>
+
+          <p class="font-s cor-05">Desenvolvido por <br> <b>João Pedro</b></p>
+        </div>
+      </div>
+
+      <div class="atos-oficiais">
+        <h2 class="font-mm cor-01">Atos Oficiais</h2>
+        <ul class="font-s cor-01">
+          <li><a href="">Informações Sobre Cdhu</a></li>
+          <li>
+            <a href="https://www2.tatui.sp.gov.br/servicos/audiencias-publicas/">Audiências Públicas</a>
+          </li>
+          <li>
+            <a href="https://www2.tatui.sp.gov.br/servicos/concursos-publicos/">Concursos Públicos</a>
+          </li>
+          <li><a href="">Decretos Municipais</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class="leis font-s cor-01">
+          <li><a href="">Leis Municipais</a></li>
+          <li><a href="">Leis Complementares</a></li>
+          <li><a href="">Leis Orçamentárias</a></li>
+          <li><a href="">Leis De Uso e Ocupação</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
   <script src="js/script.js"></script>
 </body>
 

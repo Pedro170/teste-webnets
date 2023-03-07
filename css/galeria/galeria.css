@@ -1,0 +1,74 @@
+.galeria-bg {
+  position: relative;
+  background: linear-gradient(to right, #001E32 60%, #001e329d), url('https://www.grupomoreno.com.br/img/cidade_tatui01.jpg') no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.galeria-bg::before,
+.galeria-bg::after {
+  content: '';
+  position: absolute;
+}
+
+.galeria-bg::before {
+  top: -38px;
+  background: url('../../img/bg-top01.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+.galeria-bg::after {
+  bottom: 0;
+  /* background: url('../../img/bg-bottom.svg') no-repeat; */
+  /* background-size: contain;
+  background-position: center; */
+  /* background: red; */
+  border-radius: 50px 20px 0 0;
+  width: 100%;
+  height: 86px;
+}
+
+.galeria {
+  position: relative;
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.galeria h2 {
+  color: #fff;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.galeria-grid img {
+  width: 240px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.galeria-introducao {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.galeria .chip-veja-mais {
+  right: 10px;
+  bottom: 20px;
+}
+
+.video iframe {
+  width: 480px;
+  height: 100%;
+}
+
+.video p {
+  margin: 1rem 0;
+}

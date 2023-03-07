@@ -18,12 +18,37 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 980px;
   padding: 25px 1rem;
   margin: 0 auto;
 }
 
+.box-imagem {
+  height: 320px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.box-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .titulo-pricipal {
-  color: #001E32;
   margin-bottom: 1.5rem;
+}
+
+.chip-veja-mais {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background: #012C4F;
+  font-size: .875rem;
+  padding: .2rem 1rem;
+}
+
+.chip-veja-mais.border {
+  border: solid 1px var(--cor-01);
 }
