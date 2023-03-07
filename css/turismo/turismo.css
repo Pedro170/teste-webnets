@@ -1,12 +1,12 @@
 .turismo-bg {
   background: 
     linear-gradient(to right, #015c77a6 60%, #015c77a6),
-    url('../../img/fabrica.webp') no-repeat
+    url('../../img/fabrica.jpg') no-repeat
   ;
   background-position: center;
   background-size: cover;
   width: 100%;
-  padding-bottom: 100px;
+  padding: 60px 0;
 }
 
 .informacoes-turismo {

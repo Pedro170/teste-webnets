@@ -23,3 +23,24 @@
   background: var(--cor-03);
   padding: 2rem;
 }
+
+@media( max-width: 600px ) {
+  .introducao-destaque {
+    grid-template-columns: 1fr;
+  }
+
+  .destaque-navegacao {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .destaque-navegacao li {
+    width: 100%;
+    display: block;
+    border-radius: .25rem;
+    background: var(--cor-02);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+}

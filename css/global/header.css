@@ -1,4 +1,5 @@
 .header-bg {
+  position: relative;
   display: flex;
   flex-direction: column;
   background: var(--cor-02);
@@ -9,14 +10,14 @@
 .header-navegacao {
   max-width: 980px;
   margin: 0 auto;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .header-informacoes-buttons button {
   border: none;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   background: var(--cor-03);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .header-informacoes-buttons button img {
@@ -59,16 +60,16 @@
   width: 300px;
   height: 30px;
   border: solid 1px var(--cor-05);
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   background: var(--cor-06);
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
 .header-search img {
   width: 18px;
 }
 
-.header-menu-search .header-search input {
+.header-search input {
   border: none;
   width: 100%;
   height: 100%;
@@ -77,5 +78,98 @@
 }
 
 .header-navegacao ul a {
-  padding: .2rem;
+  padding: 0.2rem;
+}
+
+@media (max-width: 860px) {
+  /* #toggle {
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    outline: none;
+  }
+
+  #toggle div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #37a6ff;
+    clip-path: circle();
+    cursor: pointer;
+    transform: 0.2s;
+  }
+
+  #toggle div.ativo {
+    background: #f7226a;
+  }
+
+  #toggle div::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: #fff;
+    box-shadow: 0 10px 0 #fff;
+    transition: 0.2s;
+    transform: translateY(-10px);
+  }
+
+  #toggle div.ativo::before {
+    transform: translateY(0px) rotate(45deg);
+    box-shadow: 0 0 0 #fff;
+  }
+
+  #toggle div::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: #fff;
+    transition: 0.2s;
+    transform: translateY(10px);
+  }
+
+  #toggle div.ativo::after {
+    transform: translateY(0px) rotate(-45deg);
+  } */
+
+  .header-navegacao,
+  .header-top {
+    display: none;
+  }
+
+  .logo img {
+    width: 280px;
+  }
+
+  /* .header-top {
+    display: none;
+  } */
+
+  .header-center {
+    width: 100%;
+  }
+
+  .header-search {
+    width: 100%;
+    height: 40px;
+  }
+
+  .header-menu-search.flex-1 {
+    align-items: flex-end;
+    column-gap: 2rem;
+  }
+
+  .header-menu-search .flex-3 {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+  }
+
 }

@@ -36,3 +36,35 @@
   width: 340px;
   height: 140px;
 }
+
+@media ( max-width: 800px ) {
+  .noticias-galeria {
+    grid-template-columns: 1fr;
+  }
+
+  .noticias-galeria .box-imagem {
+    height: 340px;
+    margin-bottom: 1rem;
+  }
+
+  .noticias-mini-galeria .box-imagem {
+    width: 340px;
+    height: 200px;
+  }
+}
+
+
+@media ( max-width: 500px ) {
+  .noticias-galeria .box-imagem {
+    width: 100%;
+  }
+
+  .noticias-mini-galeria {
+    display: block;
+  }
+
+  .noticias-mini-galeria .box-imagem {
+    width: 100%;
+    height: initial;
+  }
+}
