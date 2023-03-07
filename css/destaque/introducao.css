@@ -12,3 +12,12 @@
 .destaque-imagem img {
   object-fit: cover;
 }
+
+.destaque-navegacao {
+  grid-column: 1/-1;
+  width: 100%;
+  border-radius: 25px;
+  background: #001E32;
+  color: #fff;
+  padding: 2rem;
+}

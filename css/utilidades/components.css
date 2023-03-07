@@ -19,10 +19,11 @@
 
 .container {
   max-width: 1200px;
-  padding: 50px 1rem;
+  padding: 25px 1rem;
   margin: 0 auto;
 }
 
 .titulo-pricipal {
+  color: #001E32;
   margin-bottom: 1.5rem;
 }

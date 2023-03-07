@@ -2,3 +2,5 @@
 @import url('./global/header.css');
 @import url('./utilidades/components.css');
 @import url('./destaque/introducao.css');
+@import url('./noticia/noticia-galeria.css');
+@import url('./galeria/galeria.css');
