@@ -11,14 +11,14 @@
   position: absolute;
 }
 
-.galeria-bg::before {
+/* .galeria-bg::before {
   top: -38px;
   background: url('../../img/bg-top01.svg') no-repeat;
   background-size: contain;
   background-position: center;
   width: 100%;
   height: 200px;
-}
+} */
 
 .galeria-bg::after {
   bottom: 0;
@@ -33,7 +33,7 @@
 
 .galeria {
   position: relative;
-  padding-top: 140px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
