@@ -5,7 +5,7 @@ Esse projeto foi criado com objetivo de realizar o teste propostos pela empresa 
 # 🚀 Começando
 
 Acesse nesse link a página do projeto
-[Desafio target sistemas](https://pedro170.github.io/teste-webnets/)
+[Teste Webnets](https://pedro170.github.io/teste-webnets/)
 
 
 
