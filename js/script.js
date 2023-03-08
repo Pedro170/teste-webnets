@@ -46,7 +46,6 @@ if(elementData) {
   elementData.innerText = formatarData(data);
 }
 
-
 /* Pegando valor do input */
 
 const input = document.querySelector('.header-search input')
