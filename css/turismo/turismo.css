@@ -46,3 +46,9 @@
 .item-info:nth-child(1) span { background: #055C79;}
 .item-info:nth-child(2) span { background: #D06B00;}
 .item-info:nth-child(3) span { background: #662C04;}
+
+@media ( max-width: 800px ) {
+  .informacoes-turismo {
+    grid-template-columns: 1fr;
+  }
+}

@@ -11,9 +11,10 @@
 }
 
 .noticias-galeria a {
-  display: block;
+  display: inline-block;
   max-width: max-content;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .noticias-galeria a::after {
@@ -53,6 +54,13 @@
   }
 }
 
+@media ( max-width: 600px ) {
+  .noticias-galeria a.chip-veja-mais {
+    position: relative;
+    top: -40px;
+    max-width: 100%;
+  }
+}
 
 @media ( max-width: 500px ) {
   .noticias-galeria .box-imagem {

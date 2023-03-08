@@ -52,3 +52,15 @@
 .chip-veja-mais.border {
   border: solid 1px var(--cor-01);
 }
+
+@media ( max-width: 600px ) {
+  .chip-veja-mais,
+  .chip-veja-mais.border {
+    right: initial;
+    left: initial;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+}

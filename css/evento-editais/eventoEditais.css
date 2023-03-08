@@ -133,9 +133,8 @@
 
   .eventos .chip-veja-mais,
   .editais .chip-veja-mais {
-    bottom: -40px;
+    bottom: initial;
     right: initial;
-    left: 0;
   }
 }
 
