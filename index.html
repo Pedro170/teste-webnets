@@ -16,8 +16,8 @@
         <div class="header-informacoes">
           <div class="header-informacoes-buttons flex-1">
             <button><img src="./img/icones/ajuste.svg" alt=""></button>
-            <button>A+</button>
-            <button>a-</button>
+            <button id="plus-fonte">A+</button>
+            <button id="less-fonte">a-</button>
             <button>Acessibilidade</button>
           </div>
 
@@ -50,11 +50,13 @@
                 </a>
               </ul>
             </div>
-            <span class="data cor-03 font-xs">06 de março de 2023</span>
-            <div class="header-search flex-1">
-              <input type="text" name="" id="">
-              <img src="./img/icones/search.svg" alt="lupa">
-            </div>
+            <span class="data cor-03 font-xs"></span>
+            <form>
+              <label for="texto" class="header-search flex-1">
+                <input type="text" name="texto" id="texto">
+                <img src="./img/icones/search.svg" alt="lupa">
+              </label>
+            </form>
           </div>
         </div>
       </div>
@@ -77,21 +79,35 @@
       </div>
     </div>
   </header>
-  
+
   <main class="container">
     <h1 class="titulo-pricipal cor-03">Destaques</h1>
     <div class="introducao-destaque">
       <div class="destaque-imagem">
         <img src="./img/destaque-img01.jpg" alt="Sítio do Carroção">
+        <span class="destaque-mensagem cor-01">
+          <a href="./" class="font-x cor-08">Dia 20 de março</a>
+            <p>
+              Escola de Aprendizes faz uso de um programa integrado de aulas e atividades
+            </p>
+        </span>
       </div>
 
-      <div class="destaque-imagem"><img src="./img/destaque-img02.jpg" alt="Calçada com flores rosa"></div>
+      <div class="destaque-imagem">
+        <img src="./img/destaque-img02.jpg" alt="Calçada com flores rosa">
+        <span class="destaque-mensagem cor-01">
+          <a href="./" class="font-x cor-08">Dia 20 de março</a>
+            <p>
+              Escola de Aprendizes faz uso de um programa integrado de aulas e atividades
+            </p>
+        </span>
+      </div>
 
       <ul class="destaque-navegacao cor-01 flex-1">
         <li><a href="/">Transparência</a></li>
         <li><a href="/">Serviços para Empresa</a></li>
         <li><a href="/">Serviços para Cidadão</a></li>
-        <li><a href="/">Serviços para Cidadão</a></li>
+        <li><a href="/">Serviços para Servidor</a></li>
         <li><a href="/">Segunda via de contas</a></li>
       </ul>
     </div>
@@ -121,7 +137,7 @@
 
             <div>
               <a href="/" class="font-x cor-08">Dia 20 de março</a href="/">
-              <p class="font-mm cor-07">Foi aberto a inscrição para as feiras de Natal. São Vários espaços disponíveis
+              <p class="font-mm cor-07">Foi aberto a inscrição para as feiras de Natal. São vários espaços disponíveis
               </p>
             </div>
           </div>
@@ -133,7 +149,7 @@
 
             <div>
               <a href="/" class=".font-x cor-08">Dia 20 de março</a href="/">
-              <p class="font-mm cor-07">Foi aberto a inscrição para as feiras de Natal. São Vários espaços disponíveis
+              <p class="font-mm cor-07">A prefeitura abriu processo eletivo para Guarda Civil
               </p>
             </div>
           </div>
@@ -178,7 +194,7 @@
         </div>
         <div class="item-info">
           <img src="./img/turismo-mercado.jpg" alt="Mercado Municipal “Nilzo Vanni”">
-          <span class="font-mm cor-01">Resturantes</span>
+          <span class="font-mm cor-01">Restaurantes</span>
         </div>
         <div class="item-info">
           <img src="./img/turismo-cama.jpg" alt="">
@@ -203,7 +219,7 @@
             </div>
           </li>
           <li>
-            <span>15 Junho</span>
+            <span>16 Junho</span>
             <div>
               <h3 class="font-mm cor-07">Feira das Malhas e Cervejas</h3>
               <p class="font-s cor-07">
@@ -212,7 +228,7 @@
             </div>
           </li>
           <li>
-            <span>15 Junho</span>
+            <span>18 Junho</span>
             <div>
               <h3 class="font-mm cor-07">Festa da Maçã e Morango</h3>
               <p class="font-s cor-07">
@@ -231,7 +247,7 @@
             <a href=""><img src="img/icones/file.svg" alt=""></a>
             <div>
               <p class="font-s cor-07">
-                Tomadad de preços n° 001/2019 - Edital n° 006/2019
+                Tomada de preços n° 001/2019 - Edital n° 006/2019
               </p>
             </div>
           </li>
@@ -239,7 +255,7 @@
             <a href=""><img src="img/icones/file.svg" alt=""></a>
             <div>
               <p class="font-s cor-07">
-                Tomadad de preços n° 001/2019 - Edital n° 006/2019
+                Tomada de preços n° 001/2019 - Edital n° 006/2019
               </p>
             </div>
           </li>
@@ -247,7 +263,7 @@
             <a href=""><img src="img/icones/file.svg" alt=""></a>
             <div>
               <p class="font-s cor-07">
-                Tomadad de preços n° 001/2019 - Edital n° 006/2019
+                Tomada de preços n° 001/2019 - Edital n° 006/2019
               </p>
             </div>
           </li>
@@ -255,7 +271,7 @@
             <a href=""><img src="img/icones/file.svg" alt=""></a>
             <div>
               <p class="font-s cor-07">
-                Tomadad de preços n° 001/2019 - Edital n° 006/2019
+                Tomada de preços n° 001/2019 - Edital n° 006/2019
               </p>
             </div>
           </li>
@@ -307,7 +323,7 @@
       <div class="atos-oficiais">
         <h2 class="font-mm cor-01">Atos Oficiais</h2>
         <ul class="font-s cor-01">
-          <li><a href="">Informações Sobre Cdhu</a></li>
+          <li><a href="">Informações Sobre CDHU</a></li>
           <li>
             <a href="https://www2.tatui.sp.gov.br/servicos/audiencias-publicas/">Audiências Públicas</a>
           </li>

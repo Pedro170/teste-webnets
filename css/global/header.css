@@ -85,6 +85,10 @@ header {
   padding: 0 0.5rem;
 }
 
+.item-header:nth-child(2) .header-search:hover {
+  border-color: var(--cor-09);
+}
+
 .item-header:nth-child(2) .header-search img {
   width: 18px;
 }
@@ -210,7 +214,7 @@ header {
     width: 100%;
   }
 
-  .item-header:nth-child(3) .header-navegacao ul {
+  .item-header:nth-child(3) .header-navegacao ul.flex-1 {
     position: absolute;
     left: -120%;
     top: 32px;
@@ -219,7 +223,9 @@ header {
     background: var(--cor-02);
     padding: 1rem;
     transition: linear 400ms;
-    z-index: 5;
+    height: calc(100vh - 316px);
+    z-index: 1000;
+    overflow-y: scroll;
   }
 
   .item-header:nth-child(3) .header-navegacao ul.ativo {

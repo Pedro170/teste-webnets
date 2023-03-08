@@ -3,8 +3,11 @@
 @import url('./global/global.css');
 @import url('./utilidades/tipografia.css');
 @import url('./utilidades/cores.css');
-@import url('./global/header.css');
 @import url('./utilidades/components.css');
+
+/* header, destaque, noticia, galeria, turismo, evento e editais */
+
+@import url('./global/header.css');
 @import url('./destaque/introducao.css');
 @import url('./noticia/noticia-galeria.css');
 @import url('./galeria/galeria.css');
